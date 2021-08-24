@@ -646,11 +646,11 @@
                 <div class="ms-3 mb-2 mt-3 px-1">
                     <div style="display:flex; flex-direction:row; justify-content:space-around; align-content:center ;">
                         <button type="button" id="clearBtn" class="btn btn-primary btn-sm clear"
-                            style="padding:0.5rem; font-weight: bold; background: gray; width: 10rem; display: block">
+                            style="padding:0.5rem; font-weight: bold; border:1px solid black; background: gray; width: 10rem; display: block">
                             CLEAR
                         </button>
                         <button type="button" id="submitBtn" class="btn btn-primary btn-sm finalSubmit"
-                            style="padding:0.5rem; font-weight: bold; background:gray; width:10rem; ">
+                            style="padding:0.5rem; font-weight: bold; border:1px solid black; background:gray; width:10rem; ">
                             SUBMIT
                         </button>
 
@@ -665,17 +665,17 @@
                     <div
                         style='display:flex; flex-direction:row; justify-content:space-evenly; align-content:flex-end;'>
                         <button type="button" id="editSaveBtn" class="btn btn-primary mb-5 mt-3 btn-md editSave"
-                            style="padding:0.5rem; font-weight:bold; background:gray; width:8rem; display:none">
+                            style="padding:0.5rem; font-weight:bold; border:1px solid black; border:1px solid black; background:gray; width:8rem; display:none">
                             SAVE
                         </button>
                         <button type="button" id="backBtn" class="btn btn-primary btn-md mb-5 ms-2 mt-3 backb"
-                            style="padding:0.5rem; font-weight:bold; background:gray; color: white; width:8rem;">
+                            style="padding:0.5rem; font-weight:bold; border:1px solid black;  background:gray; color: white; width:8rem;">
                             BACK
                         </button>
                     </div>
 
                     <button type="button" id="deleteBtn" class="btn btn-primary mb-5 me-1 mt-3 btn-md deleteB"
-                        style="padding:0.5rem; font-weight:bold; background:rgb(199, 9, 9); width:8rem; display:none">
+                        style="padding:0.5rem; font-weight:bold; border:1px solid black; background:rgb(199, 9, 9); width:8rem; display:none">
                         DELETE
                     </button>
                 </div>
@@ -695,6 +695,11 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
     <script src="./refForm.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#refTable").DataTable();
+        });
+    </script>
 </body>
 
 </html>

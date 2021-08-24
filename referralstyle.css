@@ -72,7 +72,7 @@ body {
   width: 95%;
   margin: auto;
   padding: 0.1rem;
-  border: 0.1em solid rgb(134, 124, 61);
+  border: 0.1em solid black;
 }
 
 .section2 {
@@ -80,7 +80,7 @@ body {
   width: 95%;
   margin: auto;
   padding: 0.1rem;
-  border: 0.1em solid rgb(134, 124, 61);
+  border: 0.1em solid black;
 }
 
 .section3 {
@@ -88,7 +88,7 @@ body {
   width: 95%;
   margin: auto;
   padding: 0.1rem;
-  border: 0.1em solid rgb(134, 124, 61);
+  border: 0.1em solid black;
 }
 
 .section4 {
@@ -96,7 +96,7 @@ body {
   width: 95%;
   margin: auto;
   padding: 0.1rem;
-  border: 0.1em solid rgb(134, 124, 61);
+  border: 0.1em solid black;
 }
 
 .section5 {
@@ -104,7 +104,7 @@ body {
   width: 95%;
   margin: auto;
   padding: 0.1rem;
-  border: 0.1em solid rgb(134, 124, 61);
+  border: 0.1em solid black;
 }
 
 .section6 {
@@ -112,7 +112,7 @@ body {
   width: 95%;
   margin: auto;
   padding: 0.1rem;
-  border: 0.1em solid rgb(134, 124, 61);
+  border: 0.1em solid black;
 }
 
 .section7 {
@@ -120,7 +120,7 @@ body {
   width: 95%;
   margin: auto;
   padding: 0.1rem;
-  border: 0.1em solid rgb(134, 124, 61);
+  border: 0.1em solid black;
 }
 
 .section8 {
@@ -128,7 +128,7 @@ body {
   width: 95%;
   margin: auto;
   padding: 0.1rem;
-  border: 0.1em solid rgb(134, 124, 61);
+  border: 0.1em solid black;
 }
 
 .section9 {
@@ -136,7 +136,7 @@ body {
   width: 95%;
   margin: auto;
   padding: 0.1rem;
-  border: 0.1em solid rgb(134, 124, 61);
+  border: 0.1em solid black;
 }
 
 .section10 {
@@ -144,7 +144,7 @@ body {
   width: 95%;
   margin: auto;
   padding: 0.1rem;
-  border: 0.1em solid rgb(134, 124, 61);
+  border: 0.1em solid black;
 }
 
 .section11 {
@@ -152,7 +152,7 @@ body {
   width: 95%;
   margin: auto;
   padding: 0.1rem;
-  border: 0.1em solid rgb(134, 124, 61);
+  border: 0.1em solid black;
 }
 
 .section4>button {
@@ -183,7 +183,7 @@ h2, h4, h3, h5 {
 }
 
 .referral_form {
-  border: 0.1em solid rgb(115, 106, 46);
+  border: 0.1em solid black;
 }
 
 .copyright {
@@ -195,29 +195,29 @@ h2, h4, h3, h5 {
 
 span {
   font-size: medium;
-  color: rgb(140, 80, 6);
+  color: black;
 }
 
 textarea {
   font-size: small;
-  border: 0.1em solid rgb(115, 106, 46);
+  border: 0.1em solid black;
 }
 
 input {
-  border-color: 1px solid rgb(238, 195, 95);
+  border-color: 1px solid black;
 }
 
 .input-group-text {
-  background: sandybrown;
+  background: black;
 }
 
 .referral_form {
-  color: rgb(140, 80, 6);
-  background: rgb(248, 244, 160);
+  color: black;
+  background: #d1cbc5;
 }
 
 .input_form {
-  background: rgb(238, 195, 95)
+  background: black;
 }
 
 .clear, .editSave, .finalSubmit .deleteB {
